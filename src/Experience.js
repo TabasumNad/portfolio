@@ -5,8 +5,8 @@ function Experience()
 {
     return(
         <div>
-<h4 className="name">ACL Digital Pvt Ltd -10/2021-07/2022</h4>
-<h5 className="role">Software Trainee</h5>
+<h4 className="name"><u>ACL Digital Pvt Ltd -10/2021-07/2022</u></h4>
+<h5 className="role"> Software Trainee</h5>
 <ul className="experience">
     <li>Implementation of the JAVA 8 feature by improving the error handling code in project, 
         thereby reducing the time to fix the issues in the project.</li>

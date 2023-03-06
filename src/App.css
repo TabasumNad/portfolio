@@ -19,7 +19,8 @@
   margin-left: 15px;
 }
 .experience{
-  font-size: 18px;
+  font-size: 19px;
+  color: rgb(5, 1, 22);
 }
 .about{
   /* background-color: rgb(30, 20, 20); */
@@ -67,12 +68,12 @@
 
 
 .tech-list-container {
-  
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
-  margin: 24px;
+  gap: 28px;
+  /* margin: 24px; */
 }
 
 .contactpage{
