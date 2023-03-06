@@ -12,7 +12,7 @@ function About(){
 </p>
 
 <div>
-<a href="" type="button" class="btn  btn-place">Resume</a>
+<a href="https://drive.google.com/drive/folders/11TSceWbDit44Wr0Wi6KHYIv3_DDp7ufR?usp=sharing" target="_blank" className="btn  btn-place">Resume</a>
 </div>
         </div>
         
