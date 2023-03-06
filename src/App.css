@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+.App{
+  /* background-image: radial-gradient(circle, #2c4366, #004c65, #005152, #0c5235, #3e4f19); */
+  /* background-image: linear-gradient(to left bottom, #354968, #295973, #226879, #2d7679, #458375); */
+  /* background-image: linear-gradient(to left bottom, #708dba, #7f8bb9, #8c8ab7, #9888b3, #a287ae); */
+  
+  /* background-image: radial-gradient(circle, #7edaab, #00acac, #007ba6, #004789, #210f51); */
+  background-image: radial-gradient(circle, #7edaab, #00bbba, #0095cc, #0069c7, #4c2f99);
+  height: 100vh;
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name{
+  margin-top: 120px;
+  margin-left: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.role{
+  margin-left: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.experience{
+  font-size: 18px;
+}
+.about{
+  /* background-color: rgb(30, 20, 20); */
+  font-style: normal;
+  font-size: 20px;
+  
+  margin-left: 15px;
+  color: rgb(49, 39, 39);
+}
+.btn-place{
   color: white;
+  background-color: #4c2f99;
+  margin-left: 900px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.tech-picture {
+  height: 100px;
+  width: 100px;
+  /* object-fit: contain; */
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tech-container {
+  display: flex;
+  
+  background-color:white;
+  width: 180px;
+  height: inherit;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+
+.tech-name {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  
+  /* font-weight: bold; */
+}
+
+
+
+.tech-list-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+
+.contactpage{
+  margin-top: 4%;
+  text-align: right;
+  justify-items: center;
+  margin-left: 40%;
+  
+}
+
+.formpage{
+ 
+  margin-left: 10%;
+}
+.formlen{
+  height: 20%;
+  width: 200%;
+}
+.position{
+  text-align: right;
+  
+}
+.image{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.connect{
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.connectmessage{
+  margin-top: 0;
+  margin-left: 40px;
+}
+.project_container{
+  
+  display: inline-flex;
+  gap: 20px;
+  width: fit-content;
+  
+  
+}
+.project_box{
+  background-color: black;
+  width: auto;
+  border: solid white;
+  margin-left: 20px;
+}
+.project_image{
+
+  height: 150px;
+  width: fit-content;
+  padding-left: 5px;
+ 
+  margin-top: 10px;
+  
+}
+.project_description{
+  color: white;
+  padding-left: 10px;
+
+}
+.hrcol{
+  color:rgb(255, 255, 255);
+}
+.link{
+  margin-left: 10px;
+  font-size: 15px;
+}
+.style{
+  width: 50%;
+  color: black;
+}
+.form_top{
+  margin-top: 50px;
+  margin-left: 30px;
 }
