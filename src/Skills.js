@@ -10,7 +10,7 @@ function Skills(){
 
         },
         {
-            "img":"https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
             "name":"CSS",
         },
         {

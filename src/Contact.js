@@ -34,7 +34,7 @@ function Contact(){
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
   <textarea class="form-control formlen" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
 </div>
-  <button type="submit" className="btn btn-primary position">Submit</button>
+  <button type="submit" className="btn position btn-col">Submit</button>
 </form>
             </div>
             {/* <div>
